@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="logo">
+        <img src="ms logo.jpg" alt="logo">
+        <h1>MS MEMORIAL ACADEMY</h1>
+        <h2>AFFILIATED TO C.B.S.E DELHI(CO.EDUCATION UP TO 10+2)</h2>
+        <h2>AFFILIATION NO:- 330355</h2>
+    </div>
+
+    <nav>
+
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="about.html">Aboutus</a>
+            <a href="faculty.html" >faculty</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="#">Contact</a>
+            <a href="form.html" >Online Rgistration</a>
+            <a href="#">Singin</a>
+        </div>
+    </nav>
+    <div class="container">
+        <form action="">
+            <h1>registration form</h1>
+            <h2>contact information</h2>
+            <p>Name: <input type="text" name="name" placeholder="sunny kumar shekhar"></p>
+            <p>
+            <fieldset>
+                <legend>Gender:</legend>
+
+                Male <input type="radio" name="gender" id="male">
+
+                Female <input type="radio" name="gender" id="" female>
+
+                Other <input type="radio" name="gender" id="other">
+            </fieldset>
+            </p>
+            <p>Address:<textarea name="address" placeholder="enter you address" id="address" cols="40"
+                    rows="10"></textarea> </p>
+
+            <p>email: <input type="text" name="email" placeholder="enter email id" id="email"></p>
+
+            <p>pincode: <input type="text" placeholder="enter pincode" name="name"></p>
+
+            <h2>Payment details</h2>
+            <p>Card name:
+                <select name="card_type" id="card_type">
+                    <option value="">select card type</option>
+                    <option value="visa">visa</option>
+                    <option value="rupay">rupay</option>
+                    <option value="mastercard">mastercard</option>
+                </select>
+            </p>
+
+            <p>card number: <input type="card number" id="card number"></p>
+
+            <p>Explration date: <input type="date" name="exp_date" id="explration"></p>
+
+            <p>cvv: <input type="password" name="cvv" id="cvv"></p>
+
+            <input type="submit" value="pay now">
+        </form>
+    </div>
+    <footer>
+
+        <a href="#">FAQ</a>
+        <a href="#">Contact</a>
+        <a href="#">Terms of use</a>
+        <a href="#">Privacy policy</a>
+        <a href="#">Refund policy</a>
+
+    </footer>
+</body>
+
+</html>

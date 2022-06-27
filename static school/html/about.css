@@ -1,0 +1,15 @@
+@import "main.css";
+.about h1{
+    text-align: center;
+    
+
+}
+.container{
+    float: left;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    text-decoration: none;
+    
+    
+}

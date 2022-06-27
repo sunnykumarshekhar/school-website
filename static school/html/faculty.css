@@ -1,0 +1,20 @@
+table,th,td{
+    border: 1px solid black;
+    
+    
+}
+th{
+    background:gray;
+}
+tr{
+    background: gray;
+}
+table{
+    border-radius: 5px;
+}
+header{
+    font-size: large;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: underline;
+}
